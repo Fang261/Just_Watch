@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!--link to the CSS stylesheet-->    
+      <meta charset="UTF-8" />
+      <link href="CSS_dos_Séries.css" rel="stylesheet" />
+      <title>JustWatch/Séries</title>
+  </head>
+  <body>
+    <header> 
+      <!--logo do site-"JustWatch"-->
+      <a href="Trabalho_de_AP_trailers.html"><img id="logo" src="img/Logo.bmp.png"
+      width="200px" height="90px"></a>
+      <nav id="header">
+       <!--Botões que compõem o "header" da página, logo a seguir ao "logo", ficando na mesma linha que este-->
+       <a href="Trabalho_de_AP_trailers.html"><button>Home</button></a>
+       <button>Series</button>
+       <a href="Trabalho_de_AP_filmes.html"><button>Films</button></a>
+       <button>News</button>
+       <button>My list</button>
+      </nav>
+      <div class="horas">
+        <p id="horas"></p>
+      </div>
+      <div id="nav-buttons">
+        <!--"a" que contem "nav-buttons" que compõem a parte do canto superior direito da página,
+             neste caso, search, notifications e profilepic, respetivamente
+            (A profilepic futuramente irá presenciar de uma dropbox com mais ferramentas)-->
+        <p id="nome"></p>
+        <a href="#"><img id="search-icon" src="img/search.png" width="40px" height="27px"></a>
+        <a href="#"><img id="notification-icon" src="img/notification.png" width="40px" height="30px"></a>
+        <!--Dropdown-->
+        <div class="dropdown">
+          <img onclick="myDropdown()" class="dropbtn" id="avatar-icon" src="img/ERROR.png" width="27px"height="27px">
+          <div id="myDropdown" class="dropdown-content">
+            <a href="Trabalho_de_AP_Quiz1.html"><strong>Quiz</strong></a>
+            <a href="Trabalho_de_AP_profiles.html"><strong>Profiles</strong></a>
+          </div>
+        </div>
+        <!--Dropdown-end-->
+      </div>
+    </header>
+    <br>
+    <br>
+        <!-- MAIN CONTAINER -->
+    <section class="main-container" >
+      <div>
+          <h1 class="names">Series</h1>
+          <div class="box">
+            <a href=""><img src="img-trailers/o1.png" alt=""></a>
+            <a href=""><img src="img-trailers/o2.png" alt=""></a>
+            <a href=""><img src="img-trailers/o3.png" alt=""></a>
+            <a href=""><img src="img-trailers/o6.png" alt=""></a>
+            <a href=""><img src="img-trailers/t6.png" alt=""></a>
+          </div>
+      </div>
+      <br>
+      <div class="box">
+        <a href=""><img src="img-trailers/p1.png" alt=""></a>
+        <a href=""><img src="img-trailers/p2.png" alt=""></a>
+        <a href=""><img src="img-trailers/p3.png" alt=""></a>
+        <a href=""><img src="img-trailers/p4.png" alt=""></a>
+        <a href=""><img src="img-trailers/r1.png" alt=""></a>
+      </div>
+      <br>
+      <div class="box">
+        <a href=""><img src="img-trailers/p7.png" alt=""></a>
+        <a href=""><img src="img-trailers/p10.png" alt=""></a>
+        <a href=""><img src="img-trailers/p11.png" alt=""></a>
+        <a href=""><img src="img-trailers/p12.png" alt=""></a>
+        <a href=""><img src="img-trailers/r5.png" alt=""></a>
+      </div>
+      <br>
+      <div class="box">
+        <a href=""><img src="img-trailers/t1.png" alt=""></a>
+        <a href=""><img src="img-trailers/t2.png" alt=""></a>
+        <a href=""><img src="img-trailers/p6.png" alt=""></a>
+        <a href=""><img src="img-trailers/t4.png" alt=""></a>
+        <a href=""><img src="img-trailers/r4.png" alt=""></a>
+      </div>
+      <br>
+      <div class="box">
+        <a href=""><img src="img-trailers/r2.png" alt=""></a>
+        <a href=""><img src="img-trailers/r3.png" alt=""></a>
+      </div>
+    <!-- END OF MAIN CONTAINER -->
+
+    <!--link á página de script--> 
+    <script src="JS_dos_trailers.js"></script>
+    <script src="JS_do_Nome.js"></script>
+  </body>
+</html>

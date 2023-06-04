@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!--link to the CSS stylesheet-->
+      <meta charset="UTF-8" />
+      <link href="CSS_dos_Perfis.css" rel="stylesheet" />
+      <title>JustWatch/profiles</title>
+  </head>
+  <body>
+    <!--logo do site-"JustWatch"-->
+    <header id="logo">
+        <img src="img/Logo.bmp.png"
+        width="200px" height="90px">
+    </header>
+     <br>
+     <br>
+    <div>
+        <h1>Who's watching?</h1>
+    </div>
+    <br>
+    <!--Div em que as imagens de perfil estão organizadas de maneira a que fique tudo perceptível para o utilizador,
+        e claro, com um aspecto atrativo-->
+    <div class="profilepic">
+      <div class="profiles">
+      <!--O atributo "onclick" serve para que o script da página de
+          scripts capte a informação(img de perfil) quando clicamos no "a"-->
+        <a href="./Trabalho_de_AP_trailers.html"><img src="img/PFpicgalinha.png" id="a1" id="avatar" onclick="getSrc(this)" width="130px" height="130px"></a>
+        <p><strong>Orange Chick</strong></p>
+      </div>
+      <div class="profiles">
+        <a href="./Trabalho_de_AP_trailers.html"><img src="img/PFpicgreen.jpg" id="a2" id="avatar" onclick="getSrc(this)" width="130px" height="130px"></a>
+        <p><strong>Green Guy</strong></p>
+      </div>
+      <div class="profiles">
+        <a href="./Trabalho_de_AP_trailers.html"><img src="img/PFpicpanda.png" id="a3" id="avatar" onclick="getSrc(this)" width="130px" height="130px"></a>
+        <p><strong>Kung Fu Panda</strong></p>
+      </div>
+      <div class="profiles">
+        <a href="./Trabalho_de_AP_trailers.html"><img src="img/PFpiRed.png" id="a4" id="avatar" onclick="getSrc(this)" width="130px" height="130px"></a>
+        <p><strong>Angry Red</strong></p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="manage">
+      <button>manage profiles</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--CurrentDate-->
+    <footer class="container">
+      <p class="text-center">@Copyright
+        <script>
+            var space = '/'
+            var CurrentDate = new Date().getDate()
+            document.write(CurrentDate)
+            document.write(space)
+            var CurrentMonth = new Date().getMonth()+1
+            document.write(CurrentMonth)
+            document.write(space)
+            var CurrentYear = new Date().getFullYear()
+            document.write(CurrentYear)             
+        </script>
+      </p>
+    </footer> 
+    <!--link á página de script--> 
+    <script src="JS_dos_trailers.js"></script>
+    <script src="JS_do_Nome.js"></script>
+  </body>
+</html>

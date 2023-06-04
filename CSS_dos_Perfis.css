@@ -1,0 +1,98 @@
+/*
+CSS stylesheet
+*/
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #141414;
+  /*"overflow" diz o que vai acontecer ao conteúdo que excede a caixa*/
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+h1 {
+  /*"text-align" vai definir a posição do texto em relação ás margens da página*/
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  text-align: center;
+  color: rgb(87, 87, 87);
+  padding: 0px 20px 0px 30px;
+}
+
+div {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+  text-align: left;
+  background-image: linear-gradient(#060606, #131313);
+  margin: -10px -10px 0 -10px;
+
+}
+
+.profiles{
+  width: 160px;
+}
+
+.profilepic {
+  display: inline-flex;
+  margin-left: 26.3%;
+  position: relative;
+}
+
+img {
+  border-radius: 5px;
+}
+
+img:hover {
+  transform: scale(1.07);
+  border-radius: 15px;
+}
+
+img:active {
+  border-radius: 100px;
+}
+
+button {
+  background-color: #141414;
+  color: gray;
+  border-color: gray;
+  margin-bottom: 2px;
+  border-style: double;
+  padding: 4px 12px 4px 12px;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  letter-spacing: 3px;
+}
+
+button:hover {
+  background-color: gray;
+  color: white;    
+}
+/*O ":active" a seguir a "button" no "selector" vai fazer com que os estilos dentro das tags a baixo só
+  se apliquem quando o cursor *clicar* em cima do respetivo botão*/
+button:active {
+  color: black;
+  /*Este "box-shadow" vai adicionar uma pequena sombra cinzenta em baixo do botão ao clicarmos em cima do mesmo*/
+  box-shadow: 0px 5px #666;
+  transform: translateY(2px);
+}
+
+.manage {
+  clear: both;
+  position: relative;
+  width: 100%;
+  height:30px;
+}
+
+footer {
+  color: #666;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}

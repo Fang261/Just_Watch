@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="CSS_da_account.css">
+        <title>JustWatch/Account</title>
+    </head>
+    <body>
+        <header class="showcase">
+            <div class="logo">
+                <img src="img/Logo.bmp.png">
+            </div>
+            <div class="showcase-content">
+                <form action="Trabalho_de_AP_login.html" method="post" class="formm">
+                    <h1>Create your account</h1>
+                    <div class="info">
+                        <input id="username" class="email" type="text" placeholder="Username" required><br>
+                        <input id="email" class="email" type="email" placeholder="Email" required><br>
+                        <input id="password" class="email" type="password" placeholder="Password" required minlength="8" maxlength="15"><br>
+                    </div>
+                    <div class="btn">
+                        <button class="btn-primary" type="submit" onclick="getAll()">Submit</button>
+                    </div>
+                    <div class="help">
+                        <div>
+                            <input value="true" type="checkbox"><label>Remember me</label>
+                        </div>
+                        <a href="#">Need Help ?</a>                     
+                    </div>   
+                </form>                
+                <div class="fcbk">
+                    <a href="#">
+                        <img src="https://i.ibb.co/LrVMXNR/social-fb.png" alt="Facebook">
+                      </a>
+                    <p>Login with Facebook</p>
+                </div>
+                <div class="signup">
+                    <p>Already have an account?</p>
+                    <a href="Trabalho_de_AP_login.html">Sign in now</a>
+                </div>
+                <div class="all-date">
+                    <p class="date">@Copyright
+                        <script>
+                            var space = '/'
+                            var CurrentDate = new Date().getDate()
+                            document.write(CurrentDate)
+                            document.write(space)
+                            var CurrentMonth = new Date().getMonth() + 1
+                            document.write(CurrentMonth)
+                            document.write(space)
+                            var CurrentYear = new Date().getFullYear()
+                            document.write(CurrentYear)
+                        </script>
+                    </p>
+                </div>
+            </div>
+            <div class="space"></div>          
+        </header>
+        <script src="JS_do_login.js"></script>
+    </body>
+</html>

@@ -1,0 +1,217 @@
+/*
+CSS stylesheet
+*/
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #141414;
+  overflow-x: hidden;
+}
+
+h4 {
+  color: rgb(255, 255, 255);
+}
+
+p {
+  padding: 20px 9px 2px 9px;
+}
+
+#header {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  margin-top: 32.5px;
+}
+
+#logo {
+  float: left;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+  border-style: double;
+  font-size: small;
+  margin: 4px 0px 4px 0px;
+  /*A property "cursor" serve para definir a forma do cursor quando este está em cima do que queremos,
+    neste caso com a property value de "pointer" criando uma mão com um dedo indicador levantado*/
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  transform: scale(1.045);    
+}
+
+button:active {
+  color: white;
+  transform: scale(0.90)
+}
+
+#nav-buttons {
+  float: right;
+  margin-top: 20px;
+  transform: scale(0.80);
+  margin-right: 3%;
+}
+
+#logo:hover {
+  transform: scale(1.05);
+}
+
+#logo:active {
+  transform: scale(1);
+}
+
+/*Search*/
+#search-icon {
+  /*A proerty "filter" vai nos dar acesso a uma data de property values, neste caso o "contrast",
+    que vai difinir o contraste do nav.button*/
+  filter: contrast(10%);
+}
+
+#search-icon:hover {
+  transform: scale(1.15);
+}
+
+#search-icon:active {
+  transform: scale(0.80);
+}
+
+/*Notificação*/
+#notification-icon:hover {
+  transform: scale(1.15);
+}
+
+#notification-icon:active {
+  transform: scale(0.80);
+}
+
+/*Avatar*/
+#avatar-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
+}
+
+#avatar-icon:hover {
+  transform: scale(1.15);
+}
+
+#avatar-icon:active {
+  transform: scale(0.80);
+}
+
+iframe {
+  width: 245px;
+  height: 140px;
+  margin:  0px 0px 0px 3px;
+  border-radius: 2%;
+}
+
+.trailers {
+  display: inline-block;
+}
+
+.wach {
+  margin-left: 22px;
+}
+
+header {
+  background-image: linear-gradient(#060606, #131313);
+  margin: -10px -10px 0 -10px;
+}
+
+/*dropdown*/
+
+.dropbtn {
+  background-color: black;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  overflow: auto;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: rgb(236, 28, 36);
+  border: o.5px solid black;
+}
+
+.show {
+  display: block;
+}
+
+#myDropdown {
+  margin-left: -210%;
+  margin-top: 40%;
+}
+
+/* MAIN CONTIANER */
+
+.main-container {
+  padding: 50px;
+}
+
+.main-container img {
+  width: 180px;
+}
+
+.box {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+}
+
+.box a {
+  transition: transform .3s; 
+}
+
+.names {
+  color: white; 
+}
+
+.box a:hover {
+  transition: transform .3s;
+  -ms-transform: scale(1.4);
+  -webkit-transform: scale(1.4);  
+  transform: scale(1.4);
+}
+
+.box img {
+  border-radius: 2px;
+}
+
+.horas {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+}
+
+#nome {
+  color: white;
+  position: absolute;
+  right: 110%;
+  top: -80%;
+  font-weight: bold;
+}
