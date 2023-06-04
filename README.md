@@ -1,7 +1,7 @@
 JustWatch site
 
-O objetivo deste site é recriar um género de Netflix homemade, foi um projeto que nos deu bastante que pensar, pois--
-apesar de nos termos inspirado na Netflix, foi trabalhoso idealizar cada componente para que a estrutura fosse a melhor.--
+O objetivo deste site é recriar um género de Netflix homemade, foi um projeto que nos deu bastante que pensar, pois
+apesar de nos termos inspirado na Netflix, foi trabalhoso idealizar cada componente para que a estrutura fosse a melhor.
 
 
 
